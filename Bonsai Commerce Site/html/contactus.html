@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bonsai Plant Selling Website">
+    <meta name="author" content="Saman, Aayush, Preetish">
+    <meta name="keywords" content="Bonsai, Plant, Bonsai Plant, Nursery, Products">
+    <title>Blog || Bagaicha</title>
+    <link rel="shortcut icon" href="img/Logo.png">
+
+
+</head>
+
+<!-- Importing external javascript -->
+<script src="../js/script.js"></script>
+
+<!-- CSS for the design of other pages -->
+<link rel="stylesheet" href="../css/Mainpage.css">
+
+<style>
+    body {
+        background-image: url('../img/formbg.jpg');
+    }
+</style>
+
+<!-- Navigation menu and Logo -->
+<header>
+    <div class="left">
+        <a href="../html/index.html"><img class="image" src="../img/Logo.png" alt="" width="110px"></a>
+    </div>
+    <div class="mid">
+        <nav class="navbar">
+            <ul class="navbar">
+                <b>
+                    <li><a href="../html/index.html">Home</a></li>
+                    <li><a href="../html/products.html">Products</a></li>
+                    <li><a href="../html/about.html">About Us</a></li>
+                    <li><a href="../html/blog.html">Blog</a></li>
+                    <li><a href="../html/research.html">Reference</a></li>
+                </b>
+            </ul>
+            <div class="right">
+                <a href="../html/contactus.html"><button class="button1"><b>Contact Us</b></button></a>
+            </div>
+    </div>
+    </nav>
+</header>
+
+<!-- this block is used for creating form -->
+<div class="form">
+    <h1 style="text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 50px; color: black;">
+        Contact Us</h1>
+    <form name="contactform" onsubmit="validateform()">
+        <div class="form-group">
+            <input type="text" name="fullname" placeholder="Enter Your Name " id="f1">
+        </div>
+        <div class="form-group">
+            <input type="text" name="address" placeholder="Address" id="a1">
+        </div>
+        <div class="form-group">
+            <input type="text" name="phonenumber" placeholder="Enter Your Phone Number" id="p1">
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Enter Your Email Address" id="e1">
+        </div>
+        <div class="form-group">
+            <div class="comment">
+                <textarea name="message" cols="60" rows="20" placeholder="Leave a message" id="t1"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="submit" class="button1" value="Submit">
+        </div>
+    </form>
+</div>
+
+</body>
+
+</html>

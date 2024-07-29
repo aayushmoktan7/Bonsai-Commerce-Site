@@ -1,0 +1,450 @@
+/* CSS used to style navigation bar */
+header {
+    position: float;
+    margin: 1px;
+    box-shadow: 0px 0px 10px 0;
+    align-items: center;
+    padding-block: 5px;
+    border: 3px solid green;
+    border-radius: 13px;
+}
+
+/* CSS for Logo Placement */
+.left {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+
+/* CSS for Navigation Bar Placement and color of menu */
+.mid {
+    display: block;
+    width: 55%;
+    margin: 7px auto;
+}
+
+/* CSS for button on right top */
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    margin: -10px;
+}
+
+/* CSS used for aligning buttons and brining them closer */
+.right a {
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+/* CSS used for styling of buttons */
+.button1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 7px 15px;
+    opacity: 2;
+    cursor: pointer;
+}
+
+/* CSS for hovering effect on button */
+.button1:hover {
+    background-color: rgb(91, 166, 216);
+    box-shadow: 0 3px;
+    opacity: 0.85;
+}
+
+/* CSS used for opacity of logo when hover */
+.image:hover {
+    opacity: 0.7;
+}
+
+/* CSS used to change navigation block into inline element */
+.navbar {
+    display: inline-block;
+}
+
+/* CSS used to remove bullets in a ul list */
+.navbar ul {
+    list-style: none;
+}
+
+
+/* CSS used to change styling of listed element and change them into menu bar */
+.navbar li {
+    float: left;
+    padding: 3px;
+}
+
+/* CSS used to change styling of elements inside <a> tag */
+.navbar a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 34px 36px;
+}
+
+/* CSS used to bring underline on a link when hovered */
+.navbar a:hover {
+    text-decoration: underline;
+    color: rgb(0, 220, 33);
+}
+
+/* CSS used for image in homepage */
+.homepage-image {
+    display: inline-block;
+    padding-top: 40px;
+    height: auto;
+}
+
+/* this block is used for button inside homepage image  */
+.homepage-image button {
+    display: inline-block;
+    position: relative;
+    bottom: 280px;
+    left: 225px;
+    padding: 15px 80px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.homepage-image button:hover {
+    background-color: rgb(22, 237, 165);
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+/* CSS for image inside description of bonsai plant */
+.second img {
+    border-radius: 181px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.bonsai-desc {
+    position: relative;
+    top: 50px;
+}
+
+/* CSS used for form in Contact US page */
+.form {
+    display: inline-block;
+    border: 2px solid black;
+    width: 40%;
+    margin: 90px 377px;
+    border-radius: 13px;
+    position: relative;
+    left: 90px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 375px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 13px;
+    padding: 7px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form button {
+    display: block;
+    width: 23%;
+    margin: 25px auto;
+    padding: 10px;
+}
+
+.form-group textarea {
+    display: block;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 13px;
+}
+
+
+/* this block is used for the styling of description about Bonsai Plant */
+.descmain {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+
+.descpara {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* this block is used for the styling of symbol meaning of Bonsai Plant in Home Page */
+.symbolism-style .descpara p {
+    padding: 15px;
+}
+
+.shift-paragraph {
+    position: relative;
+    top: 100px;
+}
+
+/* this block is used for product card in home page */
+
+.product-card-placement {
+    position: absolute;
+    top: 1200px;
+    left: 70px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.product-card-placement .product-head h3 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 22px;
+    padding-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    height: 460px;
+}
+
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h3 {
+    text-align: center;
+    color: rgb(86, 86, 86);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(91, 91, 91);
+    margin-left: 15px;
+}
+
+.card span {
+    margin-left: 15px;
+}
+
+.column .buybutton button {
+    display: block;
+    margin: auto;
+    padding: 3px 40px;
+    background-color: rgb(98, 245, 98);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.column button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* this block is used for image slider */
+.image-slider {
+    position: relative;
+    overflow: hidden;
+    top: 60px;
+    height: auto;
+    border-radius: 30px;
+}
+
+/* this section is used for product cards in product page */
+
+.product-display {
+    position: relative;
+    top: 50px;
+}
+
+.product-display p {
+    text-align: left;
+}
+
+.display-head {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 8px;
+}
+
+/* this block is used for discounted products */
+.discount-head h3 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+.discount-container {
+    position: absolute;
+    top: 1100px;
+    left: 8px;
+}
+
+.discount-container .discount-head h3 {
+    position: relative;
+    left: 8px;
+}
+
+.discount-container p {
+    margin: 10px;
+    position: relative;
+    left: 5px;
+}
+
+/*Css used for aboutus */
+.wrapper {
+    margin-top: 10%;
+}
+
+.wrapper h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/* css used to align about us boxes */
+.team {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+/* css used to make boxes for about us */
+.team .team_member {
+    background: rgb(160, 160, 160);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #000000;
+    position: realtive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 13px;
+    filter: grayscale(1);
+}
+
+.team .team_member:hover {
+    transform: scale(1.04);
+    transition: 0.9s;
+    cursor: pointer;
+    color: greenyellow;
+    filter: grayscale(0);
+}
+
+.team .team_member h3 {
+    color: #000000;
+    font-size: 26px;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.team .team_member p.role {
+    color: rgb(61, 61, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.team_img img {
+    border: 3px solid black;
+    border-radius: 100px;
+}
+
+/* css used for blog page */
+.descpara1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* this block is used for footer */
+.footer {
+    position: absolute;
+    top: 2600px;
+    display: inline-block;
+    width: 99%;
+    background-color: #add498;
+}
+
+.footer h3 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: green;
+}
+
+.foot-paragraph {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* this block is used for research page */
+.column-ref {
+    float: left;
+    width: 50%;
+    padding: 0 22px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.card-ref {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    height: 460px;
+}
+
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-ref figcaption {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
